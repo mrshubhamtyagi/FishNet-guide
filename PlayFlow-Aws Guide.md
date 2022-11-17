@@ -70,3 +70,9 @@ cd /BUILD FOLDER PATH
   * Request Pays -> DISABLED
   
 * Select bucket, go to Peroperties tab and scroll down to the bottom of the page to see the website URL. 
+
+
+
+### Suggestions
+* In Ubuntu terminal these commands to use a session.
+> **tmux** to start a session -> then start the server build -> **Ctrl + B then D** to exit out of session. In order to go back to the session use **tmux attach**. At amy time to end the session use **Ctrl + C**.
