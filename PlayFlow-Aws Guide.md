@@ -25,8 +25,8 @@
   > It will look something like this: ec2-PUBLIC-IP-Goes-Here.ap-south-1.compute.amazonaws.com
 * Make a Server build for Linux in Unity - Need Linux module installed, Change platform to Deverloper Server in Build Settings. 
 * Open Terminal in the folder where the ppm key is placed and paste the copied command to connect to the server. Click Yes if asked. Once connected, will see the ubuntu user name.
-* Open a separate terminal and transfer the server build to the server using this command scp -i "YOUR EC2 PEM FILE PATH" -r "BUILD LOCATION ON YOUR LOCAL MACHINE" user@ip:
-  > It will look something like this: scp -i "YOUR EC2 PEM FILE" -r "BUILD LOCATION  ON YOUR LOCAL MACHINE" ubuntu@ec2-PUBLIC-IP-GOES-HERE.ap-south-1.compute.amazonaws.com
+* Open a separate terminal and transfer the server build to the server using this command scp -i "YOUR EC2 PEM FILE PATH" -r "BUILD LOCATION ON YOUR LOCAL MACHINE": user@ip:
+  > It will look something like this: scp -i "YOUR EC2 PEM FILE" -r "BUILD LOCATION  ON YOUR LOCAL MACHINE" ubuntu@ec2-PUBLIC-IP-GOES-HERE.ap-south-1.compute.amazonaws.com:
 * Go to ubuntu terminal, change directory to build folder using:
 cd /BUILD FOLDER PATH
 * Provide the permission to the executable file using this command: 
